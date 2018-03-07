@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">OrientadasDoisRamon</string>
+    <string name="txtOla">Welcome to Hugs ! see our services.</string>
+    <string name="txtTelefone">(51)99999-9999</string>
 </resources>

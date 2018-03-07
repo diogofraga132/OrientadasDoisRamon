@@ -8,23 +8,13 @@
     tools:context="com.example.diogo.orientadasdoisramon.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="foto Hugs funções"
-        app:srcCompat="@drawable/foto1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="foto Hugs funções"
         app:srcCompat="@drawable/foto2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="18dp" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/txtOla"
@@ -33,33 +23,33 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="11dp"
-        android:text="Bem vindo a Hugs! Conheça nossos serviços"
+        android:text="@string/txtOla"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp" />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTelefone"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="contato@hugsagencia.com.br"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_alignEnd="@+id/txtOla"
-        android:layout_marginBottom="27dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="(51) 99999-9999"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-        android:layout_alignBottom="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true" />
+
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
@@ -68,7 +58,8 @@
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/imageView2"
         android:layout_alignParentStart="true" />
 
 

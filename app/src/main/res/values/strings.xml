@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hugs</string>
+    <string name="txtOla">Bem vindo a Hugs! Conheça nossos serviços</string>
+    <string name="txtTelefone">(51)99999-9999</string>
 </resources>
